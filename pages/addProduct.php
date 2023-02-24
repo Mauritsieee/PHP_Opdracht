@@ -1,0 +1,1 @@
+<!-- INSERT INTO `beterzitten`.`products` (`id`, `name`, `price`, `imageName`, `description`, `category`) VALUES (NULL, 'dummynaam', '150', 'lorem', 'dit is de uitleg van het product', 'Test'); -->

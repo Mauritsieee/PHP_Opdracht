@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(34, 25, 59);
+    overflow-x: hidden;
+}
+
+.f-background {
+    background-color: rgb(34, 25, 59);
+}
+
+
+main {
+    min-height: 70vh;
+}
+
+.page--404 {
+    height: 100vh;
+    width: 100vw;
+    z-index: 99;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-image: url('../img/404-hero.svg');
+    background-position: center;
+    background-size: cover;
+
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.page--404>* {
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+
+}
+
+.page--404 a {
+    border: solid #fff 2px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    width: fit-content;
+    transition: 100ms;
+    font-size: 2rem;
+}
+
+@keyframes grow {
+    100% {
+        transform: scale(1.05);
+    }
+}
+
+.page--404 a:hover {
+    animation: grow .5s 0s alternate infinite;
+}
