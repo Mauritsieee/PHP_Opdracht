@@ -32,6 +32,7 @@ main {
 
 h1 {
     font-size: 5rem;
+    text-transform: uppercase;
 }
 
 .page--404>* {
@@ -41,7 +42,6 @@ h1 {
     font-family: 'Roboto Mono', monospace;
     font-family: 'Work Sans', sans-serif;
     color: #fff;
-
 }
 
 .page--404 a {
@@ -64,3 +64,38 @@ h1 {
 .page--404 a:hover {
     animation: grow .5s 0s alternate infinite;
 }
+
+/* .contact--body {
+    width: 60%;
+    height: 55%;
+    margin: auto;
+    border: 10px solid red;
+}
+
+.form-control {
+    width: 40%;
+    border-radius: 25px;
+    align-items: end;
+}
+
+.form-group {
+    align-items: end;
+} */
+
+  .full-page {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        width:100%;
+    }
+
+    .full-page > div {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .full-page .img-box img {
+        width:100%;
+        /* If width != 100%  margin:auto; */
+    }
