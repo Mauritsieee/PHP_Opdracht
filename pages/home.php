@@ -2,7 +2,7 @@
     <div class="row">
 
         <div class="col-9 mt-3">
-            <h1>Testen we nog is</h1>
+            <h1>Ik neuk je nichie</h1>
         </div>
         <div class="col-3">
             <select id="filterSelector" class="form-select w-100 mt-5" onchange="updateFilter()">
